@@ -1,0 +1,46 @@
+.item{
+    display: flex;
+    margin: auto;
+    text-align: left;
+    justify-content: space-between;align-items: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin:15px 5px 15px 5px ;
+    background-color: white;
+    padding: 0px 15px 0px 15px;
+    color: black;
+
+}
+.striker{
+    text-decoration: line-through;
+    color:gray;
+}
+.delbtn{
+    background-color: rgb(238, 175, 175);
+    border: none;
+    border-radius: 50%;
+    height: 20px;
+    width:20px ;
+    text-align: center;
+    
+}
+
+input[type='checkbox'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  
+    border-radius: 50%;
+    width: 30px;height: 30px;
+  
+    border: 3px solid rgb(123, 240, 231);
+    transition: 0.2s all linear;
+    margin-right: 5px;
+  
+    position: relative;
+    top: 4px;
+  }
+  
+  input:checked {
+    border: 6px solid blueviolet;
+  }
