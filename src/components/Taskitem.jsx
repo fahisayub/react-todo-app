@@ -11,7 +11,7 @@ const handleChecked=(e)=>{
 
     return <div  className={style.item}>
        <button className={style.delbtn} onClick={()=>(onDelete(id))}>x</button>
-  <h3 className={isCompleted?style.striker:''}>{title}</h3>
+  <h2 className={isCompleted?style.striker:''}>{title}</h2>
   <input type="checkbox" className={style.checkbox}    checked={isCompleted} onChange={handleChecked} />
   
     </div>
