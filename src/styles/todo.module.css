@@ -1,25 +1,23 @@
 .todo{
     margin: auto;
+    margin-top: 40px;
     width: 500px;
     height: 600px;
     border-radius: 10px;
     padding: 20px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    background-color: rgb(47, 44, 44);
-    color:white;
+    background-color: rgb(236, 229, 229);
+    
 }
-.listbox{
-    height: 450px;
-    overflow-y:scroll;
-    margin:10px
-}
+
 .inputbox{
     width: 500px;
-    height: 50px;
+    height: 60px;
     justify-content: space-evenly;
     display: flex;
     box-sizing: border-box;
     margin: auto;
+    
 
 }
 .inputbox>input{
@@ -31,6 +29,7 @@
     margin: auto;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     padding: 20px;
+    font-size: 25px;
 }
 .inputbox>button{
     margin: auto;
@@ -41,6 +40,7 @@
     padding:5px 20px 5px 20px;
     box-sizing: border-box;
     border:none;
+    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
 }

@@ -1,0 +1,6 @@
+.listbox{
+    height: 450px;
+    overflow-y:auto;
+    scroll-behavior: smooth;
+    margin:10px
+}
